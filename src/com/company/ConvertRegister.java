@@ -1,7 +1,6 @@
 package com.company;
 
 public class ConvertRegister {
-
     public static String toUpperCase(String inputString) {
         char[] stringToUpperCase = inputString.toCharArray();
         for (int i = 0; i < stringToUpperCase.length; i++)
