@@ -7,4 +7,5 @@ public class Task_additional_lesson5 {
         System.out.println(ConvertRegister.toLowerCase(line));
 
     }
+
 }

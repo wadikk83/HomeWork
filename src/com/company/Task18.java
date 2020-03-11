@@ -1,5 +1,6 @@
 package com.company;
 
+
 public class Task18 {
     public static void main(String[] args) {
         String inputLine = "Привет! Это строка, в ко<>торой- надо посчитать! знаки ; препинания#$%";
