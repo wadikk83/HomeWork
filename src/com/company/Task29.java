@@ -1,14 +1,10 @@
 package com.company;
 
 import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-import static java.util.function.Function.identity;
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.averagingDouble;
 import static java.util.stream.Collectors.counting;
-import static java.util.stream.Collectors.toMap;
 
 
 public class Task29 {
@@ -54,8 +50,11 @@ public class Task29 {
         List<String> textList = Arrays.asList(text.split("[\\p{Punct}\\s]+"));
         //\w+" - модификатор находит только слова, то есть исключает знаки и т.п.
         Map<String, Long> vocabulary2 = textList.stream()
-               .collect(Collectors.groupingBy(s -> s, counting()));
+                .collect(Collectors.groupingBy(s -> s, counting()));
         System.out.println(vocabulary2);
+
+
+        for (Map.Entry<String, Long> e : vocabulary2.entrySet()) System.out.println(e.getKey() + "->" + e.getValue());
 
 
     }
