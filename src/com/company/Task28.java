@@ -18,10 +18,10 @@ public class Task28 {
     public static void main(String[] args) {
         List<Integer> randomList = new ArrayList<>();
 
-        List<Integer> randomList1 = new Random()
+        /*List<Integer> randomList1 = new Random()
                 .ints()
                 .limit(10)
-                .collect(Collectors.toList());
+                .collect(Collectors.toList());*/
 
         for (int i = 0; i < element; i++) {
             randomList.add((int) (Math.random() * 10));
