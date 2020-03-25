@@ -12,6 +12,9 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Task30 {
+    /*Создать файл с текстом, прочитать
+      Подсчитать в тексте количество знаков препинания и слов
+     */
     static String path = "./task30.txt";
     //static String path = null;
 
