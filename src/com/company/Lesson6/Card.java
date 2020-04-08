@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lesson6;
 
 abstract class Card {
     protected int numberCard;

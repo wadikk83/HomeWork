@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lesson10;
 
 import javax.imageio.stream.FileImageInputStream;
 import java.util.ArrayList;

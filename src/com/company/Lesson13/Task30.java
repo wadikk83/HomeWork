@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lesson13;
 
 import java.io.*;
 import java.lang.reflect.Array;
@@ -15,7 +15,7 @@ public class Task30 {
     /*Создать файл с текстом, прочитать
       Подсчитать в тексте количество знаков препинания и слов
      */
-    static String path = "./task30.txt";
+    static String path = "./Lesson13/task30.txt";
     //static String path = null;
 
     public static void main(String[] args)  {

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lesson6;
 
 public class GoldCard extends BankCard{
     Status status;

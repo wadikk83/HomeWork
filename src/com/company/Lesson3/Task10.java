@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lesson3;
 
 /**
  * The type Task 10.

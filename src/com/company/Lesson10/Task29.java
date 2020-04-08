@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Lesson10;
 
 import java.util.*;
 import java.util.stream.Collectors;

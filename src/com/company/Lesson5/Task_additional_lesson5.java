@@ -1,4 +1,6 @@
-package com.company;
+package com.company.Lesson5;
+
+import com.company.ConvertRegister;
 
 public class Task_additional_lesson5 {
     public static void main(String[] args) {
