@@ -1,4 +1,4 @@
-package com.company.Lesson13;
+package by.home.chapter1.hometask30;
 
 import java.io.*;
 import java.lang.reflect.Array;

@@ -1,4 +1,4 @@
-package com.company.Lesson13;
+package by.home.chapter1.hometask32;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -12,13 +12,13 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Task32 {
+public class Main {
 
     /*Записать в двоичный файл 20 случайных чисел
       Прочитать записанный файл.
       Распечатать числа и их среднее арифметическое
      */
-    static String path = "./task32.txt";
+    static String path = ".src/main/java/by/home/chapter1/hometask32/file32.txt";
     //static String path = null;
 
     public static void main(String[] args) {

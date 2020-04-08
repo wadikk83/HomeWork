@@ -1,4 +1,4 @@
-package com.company.Lesson13;
+package by.home.chapter1.hometask31;
 
 import java.io.IOException;
 import java.nio.file.Files;
