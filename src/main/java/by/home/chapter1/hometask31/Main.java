@@ -11,8 +11,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Task31 {
-    static String path = "./task31.txt";
+public class Main {
+    //task31
+    static String path = "./src/main/java/by/home/chapter1/hometask31/file31.txt";
 
     //static String path = null;
     public static void main(String[] args) {

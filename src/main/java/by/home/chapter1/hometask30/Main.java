@@ -11,15 +11,14 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Task30 {
-    /*Создать файл с текстом, прочитать
-      Подсчитать в тексте количество знаков препинания и слов
-     */
-    static String path = "./Lesson13/task30.txt";
+public class Main {
+    //task30
+
+    static String path = "./src/main/java/by/home/chapter1/hometask30/file30.txt";
     //static String path = null;
 
     public static void main(String[] args)  {
-        // CreateFileWithText(path); //расскоментить для создания файла с текстом
+        CreateFileWithText(path); //расскоментить для создания файла с текстом
 
         List<String> list = null;
 

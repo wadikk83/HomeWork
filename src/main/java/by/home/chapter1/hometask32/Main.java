@@ -14,11 +14,8 @@ import java.util.stream.Stream;
 
 public class Main {
 
-    /*Записать в двоичный файл 20 случайных чисел
-      Прочитать записанный файл.
-      Распечатать числа и их среднее арифметическое
-     */
-    static String path = ".src/main/java/by/home/chapter1/hometask32/file32.txt";
+    //task32
+    static String path = "./src/main/java/by/home/chapter1/hometask32/file32.txt";
     //static String path = null;
 
     public static void main(String[] args) {
