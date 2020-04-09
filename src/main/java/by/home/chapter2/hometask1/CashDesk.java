@@ -15,7 +15,7 @@ public class CashDesk {
 
     public synchronized String getProductList(Buyer buyer) {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(1200);
         } catch (InterruptedException e) {
             System.out.println("Город спит, просыпается мафия !");
         }
