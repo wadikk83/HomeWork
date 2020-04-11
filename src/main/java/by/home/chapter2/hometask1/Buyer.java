@@ -16,7 +16,6 @@ public class Buyer extends Thread {
         this.start();
     }
 
-
     @Override
     public void run() {
         System.out.println(cashDesks.get(0).getProductList(this));

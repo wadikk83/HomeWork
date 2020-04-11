@@ -17,9 +17,9 @@ public class Main {
             cashDesks.add(new CashDesk("Касса №" + i));
         }
 
-
         for (int i = 1; i < 10; i++) {
             new Buyer("Покупатель №" + i, productList, cashDesks);
         }
+        System.out.println("Main thread finished...");
     }
 }

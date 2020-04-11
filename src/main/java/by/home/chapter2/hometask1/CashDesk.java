@@ -13,6 +13,7 @@ public class CashDesk {
         return cashDeskName;
     }
 
+
     public synchronized String getProductList(Buyer buyer) {
         try {
             Thread.sleep(1200);
