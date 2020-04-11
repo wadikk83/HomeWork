@@ -10,5 +10,4 @@ public interface FileOperation {
     public boolean updateFile(String url, List<Book> books);
 
     public void deleteFile(String url);
-
 }

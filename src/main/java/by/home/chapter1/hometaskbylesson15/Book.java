@@ -34,5 +34,4 @@ public class Book implements Serializable {
                 ", title='" + title + '\'' +
                 '}';
     }
-
 }

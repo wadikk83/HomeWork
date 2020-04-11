@@ -39,7 +39,6 @@ public class FileService implements FileOperation {
         return books;
     }
 
-
     @Override
     public boolean updateFile(String url, List<Book> books) {
         //этот метод мы не будем реализовывать
@@ -49,6 +48,5 @@ public class FileService implements FileOperation {
     @Override
     public void deleteFile(String url) {
         //И этот пока не будем реализовывать
-
     }
 }
