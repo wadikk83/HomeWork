@@ -2,22 +2,22 @@ package by.home.chapter2.hometask1;
 
 import java.util.List;
 
-import static java.lang.Thread.sleep;
+public class Buyer {
 
-public class Buyer extends Thread {
-
+    String name;
     List<String> productList;
-    List<CashDesk> cashDesks;
 
-    public Buyer(String name, List<String> product, List<CashDesk> cashDesks) {
-        super(name);
-        this.productList = product;
-        this.cashDesks = cashDesks;
-        this.start();
+    public Buyer(String name, List<String> productList) {
+        this.name = name;
+        this.productList = productList;
     }
 
-    @Override
-    public void run() {
-        System.out.println(cashDesks.get(0).getProductList(this));
+    public String getName() {
+        return name;
     }
+
+    public List<String> getProductList() {
+        return productList;
+    }
+
 }
