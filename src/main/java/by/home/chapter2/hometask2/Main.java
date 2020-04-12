@@ -6,10 +6,9 @@ import java.util.regex.Pattern;
 
 public class Main {
     private static final Pattern ZIP_PATTERN = Pattern.compile("^[E,R,D]\\d{12}$");
-    //private static final Pattern ZIP_PATTERN = Pattern.compile("(?<=\\d)\\s+(?=\\d+)");
+    //private static final Pattern ZIP_PATTERN = Pattern.compile(@"\s+([E,R,D]\\d{12})");
 
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter you WM wallet");
         String wm = scanner.nextLine();
