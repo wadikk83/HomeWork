@@ -9,17 +9,17 @@ public class Main {
     //private static final Pattern ZIP_PATTERN = Pattern.compile("(?<=\\d)\\s+(?=\\d+)");
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please, enter you WM wallet");
         String wm = scanner.nextLine();
         String newWm = wm.replaceAll("\\s", "");
-        System.out.println("You input wallet is -> " + newWm);
+        System.out.println("You inplfxf yf ut wallet is -> " + newWm);
         Matcher matcher = ZIP_PATTERN.matcher(newWm);
         if (matcher.matches()) {
             System.out.println("You WM wallet is OK");
         } else {
             System.out.println("You WM wallet is incorrect");
         }
-
     }
 }
