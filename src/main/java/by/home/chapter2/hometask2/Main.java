@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Please, enter you WM wallet");
         String wm = scanner.nextLine();
         String newWm = wm.replaceAll("\\s", "");
-        System.out.println("You inplfxf yf ut wallet is -> " + newWm);
+        System.out.println("You input wallet is -> " + newWm);
         Matcher matcher = ZIP_PATTERN.matcher(newWm);
         if (matcher.matches()) {
             System.out.println("You WM wallet is OK");
